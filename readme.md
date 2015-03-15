@@ -1,3 +1,10 @@
+# Set-up Environment
+```bash
+git checkout project1 ; (or any other)
+npm install
+gulp
+```
+
 # Repo Rules
 - Main branch is master
 - Each feature/sub-project must be developed in a separate branch
