@@ -1,0 +1,21 @@
+*::selection { background: black; color: #ffffff }
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 0.875em;      /* 14px / 16px = 0.875em */
+    padding: 0;
+    margin: 0;
+}
+
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

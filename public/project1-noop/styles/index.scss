@@ -4,6 +4,7 @@
 /* Base Styles */
 @import 'base/layout';
 @import 'base/variables';
+@import 'base/base.scss';
 
 /* Components */
-@import 'components/nav';
+@import 'components/header';
