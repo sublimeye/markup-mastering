@@ -1,10 +1,12 @@
 /* Vendors/Libs */
 @import 'vendors/normalize';
+@import 'vendors/reset';
 
 /* Base Styles */
 @import 'base/layout';
 @import 'base/variables';
 @import 'base/base.scss';
+@import 'base/flexgrid';
 
 /* Components */
-@import 'components/header';
+@import 'components/header/_header';

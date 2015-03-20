@@ -1,0 +1,42 @@
+
+.form {
+    float: right;
+    background: $form-bg;
+    @extend %col-4;
+}
+
+.form__header {
+    text-align: center;
+    padding: 20px 0;
+    background: $form-header-bg;
+    .form__title {
+        color: $title-form-white;
+        font-size: $title-form-font;
+        font-weight: 700;
+    }
+}
+
+.form__content {@extend %col-10; margin: 0 auto; padding-bottom: 25px;}
+
+.form__text { padding: 30px 0 20px; }
+
+.form__field {
+    width: 100%;
+    background: $form-bg;
+    border: none;
+    padding: 13px;
+    color: #ffffff;
+    font-size: $text-font-size-s;
+    margin-bottom: 10px;
+}
+
+.form__button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background: $cyan;
+    border: none;
+    color: #ffffff;
+    font-size: $text-font-size-s;
+    font-weight: 700;
+}

@@ -1,0 +1,19 @@
+.site-logo { float: left; }
+
+.site-logo__icon {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 30px;
+    height: 30px;
+    background: url("img/rocet.svg") no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.site-logo__title {
+    display: inline-block;
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
