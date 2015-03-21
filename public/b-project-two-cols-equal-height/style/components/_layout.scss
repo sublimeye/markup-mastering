@@ -4,6 +4,8 @@
 /*-------------first ways---------------*/
 .block__cell--grey { background: grey; }
 .block__cell--cyan { background: cyan; }
+.block__cell--orange { background: #ff7900; }
+.block__cell--lilac { background: #af00ff; }
 
                  /*fixed*/
 
@@ -18,7 +20,12 @@
 
 .block1 { width: 86%; display: table; margin-bottom: 40px; }
 .block__cell1 {  width: 50%;  display: table-cell; }
+
+                 /*fluid 4 columns*/
+.block__cell2 {  width: 25%;  display: table-cell; }
 /*-------------first ways---------------*/
+
+
 
 
 
@@ -27,7 +34,7 @@
 
                  /*fixed*/
 
-.section { margin: 0 auto; width: 960px; }
+.section { margin: 0 auto 20px; width: 960px;}
 
 .col-wrap1 {  background: grey;  width: 480px;}
 .col-wrap2 {
@@ -49,7 +56,7 @@
 
                  /*fluid*/
 
-.section-2 { margin: 0 auto; width: 86%; }
+.section-2 { margin: 0 auto 20px; width: 86%; }
 
 .col-2-wrap1 {  background: grey;  width: 50%;}
 .col-2-wrap2 {
@@ -66,4 +73,32 @@
     left: -100%;
     margin-right: -100%;
 }
+
+
+
+            /*fluid 4 columns*/
+
+.col-3--head-wrap {  background: grey;  width: 25%;}
+
+.col-3-wrap {
+    width: 100%;
+    position: relative;
+    left: 100%;
+    margin-right: -100%;
+        &--1 { background: cyan; }
+        &--2 { background: #ff7900; }
+        &--3 { background: #af00ff; }
+}
+
+
+.col {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-right: -100%;
+        &--1 { left: -300%; }
+        &--2 { left: -200%; }
+        &--3 { left: -100%; }
+}
+
 /*-------------second ways---------------*/
