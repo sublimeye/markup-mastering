@@ -1,0 +1,7 @@
+.section { width: 1000px; }
+.section-fixed { width: 800px; margin: 0 auto; }
+.section-fluid { width: 75%; margin: 0 auto; }
+
+.section__title { text-align: center; display: block; }
+
+@import "block";
