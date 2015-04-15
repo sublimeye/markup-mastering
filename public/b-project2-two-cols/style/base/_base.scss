@@ -1,8 +1,31 @@
 *{ box-sizing: border-box; }
 
+img { max-width: 100%;}
 
-.clear:after {
-    content: '';
+h1,h2,h3,h4 {
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+h1 { font-size: 1.75em; }
+h2 {
+    font-size: 1.50em;
+    text-align: center;
+}
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+
+
+
+.cf:before{
+    content: "";
     display: block;
+}
+
+.cf:after, .block:after {
     clear: both;
+    content: "";
+    display: block;
 }
